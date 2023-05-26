@@ -5,6 +5,10 @@ variable "owner" {
   type = string
 }
 
+variable "company" {
+  type = string
+}
+
 provider "aws" {
 }
 resource "aws_s3_bucket" "bucket" {
